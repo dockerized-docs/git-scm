@@ -23,10 +23,9 @@ WORKDIR /home/runner
 
 RUN echo 'source /etc/profile.d/rvm.sh' >> ~/.bashrc
 
-RUN /bin/bash -l -c "rvm install 2.1.8" \
-    && /bin/bash -l -c "rvm use 2.1.8"
+RUN /bin/bash -l -c "rvm install 2.1.8"
 
-RUN /bin/bash -l -c "rvm use 2.1.8; gem install bundler"
+RUN /bin/bash -l -c "rvm use 2.1.8 && gem install bundler"
 
 RUN git clone https://github.com/git/git-scm.com 
 
