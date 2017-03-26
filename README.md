@@ -5,9 +5,9 @@ Dockerzied git-scm.com site + git documentation for offline use.
 
 # Image description #
 - Base image: `ubuntu:latest`
-- The most master https://github.com/git/git-scm.com branch is cloned.
-- RVM is installed.
-- The instruction as described in [README](https://github.com/git/git-scm.com) are executed.
+- The most master https://github.com/git/git-scm.com branch is cloned
+- RVM is installed
+- The instruction as described in [README](https://github.com/git/git-scm.com) are executed
 
 # How to use this image #
 
