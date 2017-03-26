@@ -1,6 +1,6 @@
 # dockerized-docs-git-scm
 
-# What is it?
+# What is it? #
 Dockerzied git-scm.com site + git documentation for offline use.
 
 # Image description #
